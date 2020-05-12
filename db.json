@@ -8,7 +8,16 @@
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "Permission": {
+       "username": "rxj005",
+       "ismfaactivated": "True",
+       "rolename": ["developer", "okta"],
+       "group": ["group1","group2"],
+        "Permission": [
+                "dynamodb:List*",
+                "dynamodb:DescribeReservedCapacity*",
+                "dynamodb:DescribeLimits",
+                "dynamodb:DescribeTimeToLive"
+            ]
+}}
 }
