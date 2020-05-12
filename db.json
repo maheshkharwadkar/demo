@@ -19,5 +19,5 @@
                 "dynamodb:DescribeLimits",
                 "dynamodb:DescribeTimeToLive"
             ]
-}}
+}
 }
